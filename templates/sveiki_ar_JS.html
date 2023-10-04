@@ -1,0 +1,12 @@
+{% extends 'index.html' %}
+
+{% block title %}Sveiki{% endblock %}
+
+{% block saturs %}
+<input id="vards" type="text" placeholder="Vārds">
+<input id="uzvards" type="text" placeholder="Uzvārds">
+<button onclick="nospiestaPoga()">Sveiki!</button>
+
+
+<h1>Sveiki, {{vards}} {{uzvards}}!</h1>
+{% endblock %}
